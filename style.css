@@ -122,23 +122,25 @@ main{
 	color:white;
 	background:#BDBDBD;	
 }
-
+/*
 .logo{
 	color: black;
 }
+*/
 
 /*Décoration-positionnement*/
 .banner{	
 	padding:10px;
 	text-align: center;
 }
-
+/*
 .logo{
 	display:flex;
 	justify-content: center;
 	font-weight: bold;
 	border-bottom: thick double #BDBDBD;
 }
+*/
 
 .ruban{
 	margin-left:10px;
@@ -207,15 +209,15 @@ img{
 	padding:10px;
 }
 
- .loisirs>div{
- 	padding:10px;
+.icone{
 
- }
-
-.fa-swimmer, .fa-biking, .fa-table-tennis{
-		border: 2px solid white;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		width: 50px;
+		height:50px;
+		border:2px solid white;
 		border-radius: 100%;
-		padding:20px;
 	}
 
  	
@@ -400,7 +402,7 @@ img{
 	/* la partie "loisirs" reste en bas de page*/
 
 	.partie-5{
-		padding-bottom: 650px;
+		padding-bottom: 450px;
 	}
 
 	.partie-5>p {
@@ -408,16 +410,19 @@ img{
 
 	}
 	
-	/* 3 logos de la partie "loisirs*/
+	
+	.icone{
 
-	.fa-swimmer, .fa-biking, .fa-table-tennis{
-		border: 2px solid white;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		width: 50px;
+		height:50px;
+		border:2px solid white;
 		border-radius: 100%;
-		padding:20px;
 	}
 
-
-
+	
 }
 
 /* tablette*/
@@ -437,11 +442,16 @@ img{
 		list-style-position: inside;
 	}
 	
+		
+	.icone{
 
-	.fa-swimmer, .fa-biking, .fa-table-tennis{
-		border: 2px solid white;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		width: 50px;
+		height:50px;
+		border:2px solid white;
 		border-radius: 100%;
-		padding:20px;
 	}
 
 	.justify{
