@@ -63,7 +63,7 @@ body{
 
 header{
 	
-	padding-bottom:50px;
+	padding-bottom:90px;
 	height:70px;
 }
 
@@ -148,14 +148,15 @@ main{
 	padding:10px;
 	text-align: center;
 }
-/*
+
 .logo{
 	display:flex;
 	justify-content: center;
+	margin-top: 30px;
 	font-weight: bold;
 	border-bottom: thick double #BDBDBD;
 }
-*/
+
 
 .ruban{
 	margin-left:10px;
@@ -473,4 +474,18 @@ img{
 	.justify{
 		text-align: justify;
 	}
+
+
+	.photo{
+		background-color: #FFC107;
+		width: 80%;
+		height:auto;
+		margin-left: 50px;
+    	margin-right: 40px;
+    	padding: 20px;
+
+
+	}
+
+
 }
