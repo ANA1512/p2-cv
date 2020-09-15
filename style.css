@@ -81,6 +81,21 @@ span{
 	color:#FFC107;
 }
 
+/* Soulignement titre*/
+
+.underline{
+  position: relative;
+  padding:3px; 
+}
+
+.underline::before{
+  content:"";
+  height: 2px;
+  width: 50px;
+  background-color: #FFC107;
+  position: absolute;
+  bottom:0;
+}
 /* ---------------------------------------- */
 /* ==     4- MAIN et SECTION        */
 /*---------------------------------------- */
@@ -196,14 +211,9 @@ img{
 	}
 
 
-.justify{
-	text-align: justify;
-	padding:5px;
-}
-
 .justify-1{
-	padding:20px;
-	text-align: left;
+	padding:40px;
+	text-align: justify;
 }
 
 /*icône-loisirs*/
