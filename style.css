@@ -164,12 +164,9 @@ main{
 li{
 	color: orange;
 }
+/*
 
-li+p{
-	color: #75757;
-}
-
- 		/*partie 3-recommandations*/
+ /*partie 3-recommandations*/
 
 .partie-cinq{
 	text-align:center;
@@ -257,7 +254,6 @@ img{
 	
 	margin:20px;
 	display:flex;
-	flex-flow: row-wrap;
 	font-family: 'Montserrat', sans-serif;
 	
 	}
@@ -333,7 +329,7 @@ img{
 
 	}
 
-	.coordonnées{
+	.coordonnees{
 		text-align: left;
 	}
 
