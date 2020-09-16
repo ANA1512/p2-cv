@@ -41,8 +41,7 @@ body{
 }
 
 .conteneur{
-		display:block;
-		flex-flow: column-wrap;
+		display:flex;
 		text-align: center;
 		font-family: 'Montserrat', sans-serif;
 }
