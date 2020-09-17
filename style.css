@@ -41,7 +41,7 @@ body{
 }
 
 .conteneur{
-		display:flex;
+		display:block;
 		text-align: center;
 		font-family: 'Montserrat', sans-serif;
 }
@@ -180,7 +180,7 @@ li{
 
 /*style et positionnement*/
 aside{
-	
+		
 		color: white;
 		width: 100%;
 		order:1;
@@ -192,11 +192,13 @@ aside{
 .photo{
 
 		background-color: #FFC107;
-		width: 80%;
+		width: 50%;
 		height:auto;
-		margin-left: 20px;
-    	margin-right: 20px;
+		margin-left: 60px;
+    	margin-right: 60px;
     	padding: 20px;
+    	display:flex;
+    	order:1;
 
 }
 
